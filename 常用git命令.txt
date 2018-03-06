@@ -1,0 +1,18 @@
+
+
+git init (将文件夹设置成git仓库)
+开始上传文件夹中文件到github：
+git add 文件名
+git commit -m "说明"
+git remote origin 仓库地址  (连接远程仓库)
+
+
+git pull --rebase origin master  先pull再push（第一次更新时需要同步后才能push）
+git push -u origin master
+
+
+
+删除GitHub上文件：
+git rm  -r  --cached target  删除target文件夹 
+git commit -m  "删除了target" 
+git push origin master
